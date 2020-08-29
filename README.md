@@ -23,8 +23,14 @@ $ npm run build
 
 정리 필요.
 
+1. 데이터를 트리 형태로 출력  
+1. 트리 노드 expand/collapse  
+1. 트리 노드 drag & drop  
+1. 트리 노드 편집  
+
 
 ## 성능 고려사항
 
 일단 데이터 10만건 정도를 기준으로 최대 1초 이내로 로딩 가능한 걸 목표로 한다.  
-Chris Smith의 Super Fast Tree View in JavaScript를 참고하여 구현하되 트리 아이템이 모두 펼쳐진 상태로 로드해야 할 때는 이미 정렬된 데이터를 순서대로 DOM에 추가하도록 로직 변경이 가능해야 한다.  
+Chris Smith의 블로그 글 중 Super Fast Tree View in JavaScript를 참고하여 구현하되 트리 노드가 모두 펼쳐진 상태로 로드해야 할 때는 이미 정렬된 데이터를 순서대로 DOM에 추가하도록 로직 변경이 가능하도록 한다.  
+
