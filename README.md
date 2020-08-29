@@ -1,1 +1,3 @@
 # zzotree
+
+Javascript treeview module.
