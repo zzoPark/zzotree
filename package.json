@@ -4,6 +4,7 @@
   "description": "Tree view module for javascript.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/zzoPark/zzotree/issues"
   },
-  "homepage": "https://github.com/zzoPark/zzotree#readme"
+  "homepage": "https://github.com/zzoPark/zzotree#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
 }
