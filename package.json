@@ -1,0 +1,37 @@
+{
+  "name": "zzotree",
+  "version": "0.0.1",
+  "description": "Javascript treeview module.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzoPark/zzotree.git"
+  },
+  "keywords": [
+    "javascript",
+    "treeview"
+  ],
+  "author": "zzoPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzoPark/zzotree/issues"
+  },
+  "homepage": "https://github.com/zzoPark/zzotree#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@babel/runtime-corejs3": "^7.11.2",
+    "core-js": "^3.6.5"
+  }
+}
