@@ -4,6 +4,9 @@ module.exports = {
   mode: "development",
   entry: "./src/bootstrap.js",
   output: {
+    library: "ZzoTree",
+    libraryTarget: "umd",
+    globalObject: "this",
     filename: "zzotree.js",
     path: path.resolve(__dirname, "lib")
   },
@@ -16,7 +19,7 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            sourceType: "script",
+            sourceType: "module",
             plugins: [
               [
                 "@babel/plugin-transform-runtime",
@@ -24,7 +27,8 @@ module.exports = {
                   corejs: 3,
                   useESModules: true
                 }
-              ]
+              ],
+              ["@babel/plugin-proposal-class-properties"]
             ],
             presets: [
               [
