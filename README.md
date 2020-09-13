@@ -37,7 +37,7 @@ $ npm run build
 일단 데이터 10만건 정도를 기준으로 최대 1초 이내로 로딩 가능한 걸 목표로 한다.  
 Chris Smith의 블로그 글 중 Super Fast Tree View in JavaScript를 참고하여 구현하되 트리 노드가 모두 펼쳐진 상태로 로드해야 할 때는 이미 정렬된 데이터를 순서대로 DOM에 추가하도록 로직 변경이 가능하도록 한다.  
 모든 노드가 펼쳐진 상태의 트리를 DOM에 추가할 때 hierarchy 구조를 만드는 데 20분 정도 소요되는 문제가 있음..
-그냥 linear하게 하나의 <ul> 아래에 <li>로 노드를 추가하고 css와 javascript로 hierarchy 구조를 표현하도록 해야할 것 같음.
+그냥 linear하게 하나의 `<ul>` 아래에 `<li>`로 노드를 추가하고 css와 javascript로 hierarchy 구조를 표현하도록 해야할 것 같음.
 
 1. Maximum level of tree = 100,000
 1. Maximum size of data = 100,000
